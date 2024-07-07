@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+
+
+.imagens {
+    background-image: url(imagens/canhao.jpg);
+    background-size: cover;
+    background-attachment: -50% -50%;
+    width: 600px;
+    height: 400px;
+}
+
+.imagens2 {
+    background-image: url(imagens/canhaob.jpg);
+    background-size: cover;
+    background-attachment: -50% -50%;
+    width: 600px;
+    height: 400px;
+}
+
+.imagens3 {
+    background-image: url(imagens/canhac.jpg);
+    background-size: cover;
+    background-attachment: -50% -50%;
+    width: 600px;
+    height: 400px;
+}

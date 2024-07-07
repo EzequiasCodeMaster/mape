@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade MAPA - Lançamento de Projéteis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Atividade MAPA - Lançamento de Projéteis</h1>
+            <a href="pagina2.html">Obeservação</a>
+        <section>
+            <h2>Item I</h2>
+            <div class="question">
+                <h3>a) Simulação com velocidade de 17m/s e ângulo de 64º</h3>
+                <p>
+                    Configuração da simulação:<br>
+                    - Velocidade inicial: 17 m/s<br>
+                    - Ângulo de lançamento: 64º<br>
+                    - Altura do canhão: 0 m (nível do solo)
+                </p>
+                <p>Resultado: Não atingiu o alvo.
+                    
+                </p>
+                <div class="imagens"></div>
+            </div>
+            <div class="question">
+                <h3>b) Simulação com velocidade de 16m/s e ângulo de 72º</h3>
+                <p>
+                    Configuração da simulação:<br>
+                    - Velocidade inicial: 16 m/s<br>
+                    - Ângulo de lançamento: 72º<br>
+                    - Altura do canhão: 0 m (nível do solo)
+                </p>
+                <p>Resultado: Atigiu o Alvo</p>
+                <div class="imagens2"></div>
+                 
+            <div class="question">
+                <h3>c) Variação do ângulo de lançamento</h3>
+                <p>
+                    Observação com diferentes ângulos:<br>
+                    - Realizei varias simulações conforme a imagem abaixo
+                </p>
+
+                <div class="imagens3"></div>
+                <p>
+                    Resultados esperados:<br>
+                    - O objeto vai mais longe conforme a mudança.<br>
+                    - O obejeto vai mais a direita conforme mostrado na imagem.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Item II</h2>
+            <div class="question">
+                <h3>e) Tabela verdade para o evento probabilístico</h3>
+                <pre>
+Tabela verdade completa:
+| a | b | c | (a ∨ b) | (~b) | (a ∧ ~b) | (a ∧ ~b ∧ c) | (a ∧ c) | Resultado final |
+|---|---|---|---------|------|---------|-------------|---------|----------------|
+| V | V | V |    V    |   F  |    F    |      F      |    V    |       V        |
+| V | V | F |    V    |   F  |    F    |      F      |    F    |       V        |
+| V | F | V |    V    |   V  |    V    |      V      |    V    |       V        |
+| V | F | F |    V    |   V  |    V    |      F      |    F    |       V        |
+| F | V | V |    V    |   F  |    F    |      F      |    F    |       V        |
+| F | V | F |    V    |   F  |    F    |      F      |    F    |       V        |
+| F | F | V |    F    |   V  |    F    |      F      |    F    |       F        |
+| F | F | F |    F    |   V  |    F    |      F      |    F    |       F        |
+                </pre>
+            </div>
+            <div class="question">
+                <h3>f) Situações de acerto e porcentagem</h3>
+                <p>
+                    Total de situações: Existem 8 combinações possíveis (2^3).<br>
+                    Situações de acerto (V): Existem 6 situações onde o resultado é Verdadeiro (V).
+                </p>
+                <p>
+                    Cálculo da porcentagem de acertos:<br>
+                    Porcentagem de acerto = (Número de acertos / Total de situações) * 100<br>
+                                          = (6 / 8) * 100<br>
+                                          = 75%
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Item III</h2>
+            <div class="question">
+                <h3>g) Cálculo da média</h3>
+                <p>
+                    Dados dos lançamentos:<br>
+                    - Alcances: 100m, 120m, 140m, 160m, 180m, 200m, 220m, 240m<br>
+                    - Frequências: 3, 5, 8, 6, 4, 2, 1, 1
+                </p>
+                <p>
+                    Cálculo da média:<br>
+                    Média = (Soma das distâncias ponderadas pelas frequências) / Soma das frequências<br>
+                          = [(100*3) + (120*5) + (140*8) + (160*6) + (180*4) + (200*2) + (220*1) + (240*1)] / 30<br>
+                          = 4560 / 30<br>
+                          = 152m
+                </p>
+            </div>
+            <div class="question">
+                <h3>h) Cálculo da mediana</h3>
+                <p>
+                    Dados dos lançamentos (frequência acumulada):<br>
+                    - 100m: 3<br>
+                    - 120m: 8 (3 + 5)<br>
+                    - 140m: 16 (8 + 8)<br>
+                    - 160m: 22 (16 + 6)<br>
+                    - 180m: 26 (22 + 4)<br>
+                    - 200m: 28 (26 + 2)<br>
+                    - 220m: 29 (28 + 1)<br>
+                    - 240m: 30 (29 + 1)
+                </p>
+                <p>Mediana: O valor mediano é o 15º e 16º valor na lista ordenada, que corresponde a 140m.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
